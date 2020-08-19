@@ -7,42 +7,93 @@
 <title>Ryan Paton</title>
 </head>
 
-<body>
-	<nav class="w3-container w3-bar w3-blue-grey">
-		<a href="#" class="w3-button">HOME</a>
-		<a href="#" class="w3-button">MY CV</a>
+<body class="w3-light-blue">
+	<nav class="w3-container w3-bar w3-blue-grey"
+        style="position:sticky;top:0;z-index:100;">
+		<a href="#about" class="w3-button" style="font-size:1.2em;">HOME</a>
+        <a href="#projects" class="w3-button" style="font-size:1.2em;">PROJECTS</a>
+		<a href="#cv" class="w3-button" style="font-size:1.2em;">MY CV</a>
 	</nav>
 	
-	<div class="w3-content w3-row-padding">
-        <!-- Link to Legion App -->
-		<div class="w3-card-4 w3-col s4 m4 l4" style="max-width:360px">
-			<a href="legion" style="text-decoration-line:none">
-			<h1 class="w3-blue">Legion App</h1>
+    <div class="w3-content">
+        <!-- About -->
+        <div id="about" class="w3-container w3-card w3-white w3-margin">
+            <p>I am a developer living in Christchurch, New Zealand with
+            experience using C, C++, Java, Javascript, Python and PHP; and I
+            am eager and quick to learn new technologies</p>
             
-			<img class="w3-image w3-round-large w3-border w3-border-black"
-                src="legion.png" alt="Legion app"/>
+            <p>I have a Bachelor of Science (BSc) from the University of
+            Canterbury in Christchurch, New Zealand majoring in computer
+            science</p>
             
-			<p>
-                Web app for the Star Wars: Legion miniatures game to aid in
-                setting up skirmish mode games.
-            </p>
-			</a>
-		</div>
-        
-        <!-- Link to POKE-API app -->
-        <div class="w3-card-4 w3-col s4 m4 l4" style="max-width:360px">
-            <a href="POKE-API-project" style="text-decoration-line:none">
-            <h1 class="w3-blue">POKE-API Project</h1>
+            <p>This webpage is written using HTML and CSS, the projects linked
+            below are written using HTML, CSS and Javascript</p>
             
-            <img class="w3-image w3-round-large w3-border w3-border-black"
-                src="pokeapi.png" alt="POKE-API app"/>
-            
-            <p>
-                Web app to search for Pokemon by accessing the public API
-                "POKEAPI"
-            </p>
+            <p>All work is my own except for the use of the Fisher-Yates
+            algorithm for shuffling and the following external public APIs that
+            are accessed:</p>
+            <ul><li>POKE-API</li></ul>
         </div>
-	</div>
+        
+        <!-- Portfolio Links -->
+        <div class="w3-row-padding w3-padding-16 w3-card w3-white w3-margin"
+            id="projects">
+            <!-- Link to Legion App -->
+            <div class="w3-col s4 m4 l4" style="max-width:360px">
+                <a href="legion" style="text-decoration-line:none">
+                <div class="w3-card w3-padding w3-round">
+                <h1 class="w3-blue">Legion App</h1>
+                
+                <img class="w3-image w3-round-large w3-border w3-border-black"
+                    src="legion.png" alt="Legion app"/>
+                
+                <p>
+                    Web app for the Star Wars: Legion miniatures game to aid in
+                    setting up skirmish mode games.
+                </p>
+                </div>
+                </a>
+            </div>
+            
+            <!-- Link to POKE-API app -->
+            <div class="w3-col s4 m4 l4" style="max-width:360px">
+                <a href="POKE-API-project" style="text-decoration-line:none">
+                <div class="w3-card w3-padding w3-round">
+                <h1 class="w3-blue" style="font-size:2em">POKE-API Project</h1>
+                
+                <img class="w3-image w3-round-large w3-border w3-border-black"
+                    src="pokeapi.png" alt="POKE-API app"/>
+                
+                <p>
+                    Web app to search for Pokemon by accessing the public API
+                    "POKEAPI"
+                </p>
+                </div>
+                </a>
+            </div>
+            
+            <!-- Link to POKE-API app -->
+            <div class="w3-col s4 m4 l4" style="max-width:360px">
+                <a href="#" style="text-decoration-line:none">
+                <div class="w3-card w3-padding w3-round">
+                <h1 class="w3-blue">dummy link</h1>
+                
+                <img class="w3-image w3-round-large w3-border w3-border-black"
+                    src="pokeapi.png" alt="POKE-API app"/>
+                
+                <p>
+                    Explaination
+                </p>
+                </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- CV -->
+        <div id="cv" class="w3-container w3-card w3-white w3-margin">
+            <iframe src="ryan-paton-cv.pdf" height="900px" width="100%"></iframe>
+        </div>
+    </div>
 </body>
 
 </html>
