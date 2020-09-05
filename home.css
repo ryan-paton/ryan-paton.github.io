@@ -1,0 +1,17 @@
+/*
+Home.css
+
+Ryan Paton
+2020-09-06
+*/
+
+#projects div {
+    max-width: 360px;
+    height: 460px;
+}
+
+h1 {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}

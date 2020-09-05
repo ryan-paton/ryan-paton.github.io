@@ -1,18 +1,25 @@
 <!DOCTYPE html>
+<!--
+index.html
+
+Ryan Paton
+2020-06-25
+-->
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="Stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<title>Ryan Paton</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+
+    <link rel="stylesheet" href="home.css"/>
+    <title>Ryan Paton</title>
 </head>
 
 <body class="w3-light-blue">
 	<nav class="w3-container w3-bar w3-blue-grey"
         style="position:sticky;top:0;z-index:100;">
 		<a href="#" class="w3-button w3-light-gray" style="font-size:1.2em;">HOME</a>
-        <!-- may add this back later 
-        <a href="#" class="w3-button" style="font-size:1.2em;">PROJECTS</a>-->
+        <a href="projects.html" class="w3-button" style="font-size:1.2em;">PROJECTS</a>
 		<a href="cv.html" class="w3-button" style="font-size:1.2em;">MY CV</a>
 	</nav>
 	
@@ -21,75 +28,76 @@
         <div id="about" class="w3-container w3-card w3-white w3-margin">
             <p>I am a developer living in Christchurch, New Zealand with
             experience using C, C++, Java, Javascript, Python and PHP; and I
-            am eager and quick to learn new technologies</p>
+            am eager and quick to learn new technologies.</p>
             
             <p>I have a Bachelor of Science (BSc) from the University of
             Canterbury in Christchurch, New Zealand majoring in computer
-            science</p>
+            science.</p>
             
-            <p>This webpage is written using HTML and CSS, the projects linked
-            below are written using HTML, CSS and Javascript</p>
-            
-            <p>All work is my own except for the use of the Fisher-Yates
-            algorithm for shuffling and the following external public APIs that
-            are accessed:</p>
-            <ul><li>PokeAPI</li></ul>
+            <p>This webpage is written using HTML and CSS, and uses w3.css from
+            <a href="https://www.w3schools.com/default.asp">w3schools.com</a>.
+            There are quick links to each of my projects below, and more
+            information about each one can be found on the Projects page.</p>
         </div>
         
         <!-- Portfolio Links -->
-        <div class="w3-row-padding w3-padding-16 w3-card w3-white w3-margin"
-            id="projects">
-            <!-- Link to Legion App -->
-            <div class="w3-col s12 m4 l4" style="max-width:360px">
-                <a href="legion" style="text-decoration-line:none">
-                <div class="w3-card w3-padding w3-round">
-                <h1 class="w3-blue">Legion App</h1>
-                
-                <img class="w3-image w3-round-large w3-border w3-border-black"
-                    src="legion.png" alt="Legion app"/>
-                
-                <p>
-                    Web app for the Star Wars: Legion miniatures game to aid in
-                    setting up skirmish mode games.
-                </p>
+        <div class="w3-padding-16 w3-card w3-white w3-margin">
+            <h4 class="w3-margin">
+                Quick links to my projects, there is more information on each
+                one on the Projects page
+            </h4>
+            <div class="w3-row-padding" id="projects">
+                <!-- Link to Legion App -->
+                <div class="w3-col s12 m4 l4">
+                    <a href="legion" style="text-decoration-line:none">
+                    <div class="w3-card w3-padding w3-round">
+                    <h1 class="w3-blue-gray w3-round">Legion App</h1>
+                    
+                    <img class="w3-image w3-round-large w3-border w3-border-black"
+                        src="legion.png" alt="Legion app"/>
+                    
+                    <p>
+                        Web app for the Star Wars: Legion miniatures game to aid in
+                        setting up skirmish mode games.
+                    </p>
+                    </div>
+                    </a>
                 </div>
-                </a>
-            </div>
-            
-            <!-- Link to POKE-API app -->
-            <div class="w3-col s12 m4 l4" style="max-width:360px">
-                <a href="POKE-API-project" style="text-decoration-line:none">
-                <div class="w3-card w3-padding w3-round">
-                <h1 class="w3-blue" style="font-size:2em">POKE-API Project</h1>
                 
-                <img class="w3-image w3-round-large w3-border w3-border-black"
-                    src="pokeapi.png" alt="POKE-API app"/>
-                
-                <p>
-                    Web app to search for Pokemon by accessing the public API
-                    "PokeAPI"
-                </p>
+                <!-- Link to POKE-API app -->
+                <div class="w3-col s12 m4 l4">
+                    <a href="POKE-API-project" style="text-decoration-line:none">
+                    <div class="w3-card w3-padding w3-round">
+                    <h1 class="w3-blue-gray w3-round" style="font-size:2em">POKE-API Project</h1>
+                    
+                    <img class="w3-image w3-round-large w3-border w3-border-black"
+                        src="pokeapi.png" alt="POKE-API app"/>
+                    
+                    <p>
+                        Web app to search for Pokemon by accessing the public API
+                        "PokeAPI"
+                    </p>
+                    </div>
+                    </a>
                 </div>
-                </a>
-            </div>
-            
-            <!-- Link to discover space -->
-            <div class="w3-col s12 m4 l4" style="max-width:360px">
-                <a href="discover-space" style="text-decoration-line:none">
-                <div class="w3-card w3-padding w3-round">
-                <h1 class="w3-blue">Discover Space</h1>
                 
-                <img class="w3-image w3-round-large w3-border w3-border-black"
-                    src="space.png" alt="POKE-API app"/>
-                
-                <p>
-                    Web page that accesses photos of space using NASA open APIs
-                </p>
+                <!-- Link to discover space -->
+                <div class="w3-col s12 m4 l4">
+                    <a href="discover-space" style="text-decoration-line:none">
+                    <div class="w3-card w3-padding w3-round">
+                    <h1 class="w3-blue-gray w3-round">Discover Space</h1>
+                    
+                    <img class="w3-image w3-round-large w3-border w3-border-black"
+                        src="space.png" alt="NASA API app"/>
+                    
+                    <p>
+                        Web page that accesses photos of space using NASA open APIs
+                    </p>
+                    </div>
+                    </a>
                 </div>
-                </a>
             </div>
         </div>
-        
     </div>
 </body>
 
