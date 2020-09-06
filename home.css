@@ -15,3 +15,7 @@ h1 {
     height: 60px;
     line-height: 60px;
 }
+
+.w3-card:hover {
+    background-color: lightgray;
+}

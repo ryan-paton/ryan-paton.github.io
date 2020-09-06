@@ -1,0 +1,14 @@
+/*
+project.css
+
+Ryan Paton
+2020-09-06
+*/
+
+div a {
+    min-width: 220px;
+}
+
+.w3-content div {
+    padding: 16px;
+}
